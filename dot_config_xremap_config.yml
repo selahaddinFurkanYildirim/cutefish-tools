@@ -1,0 +1,29 @@
+keymap:
+  - name: General
+    exact_match: true
+    remap:
+      Super-Space:
+        launch: [ "bash", "-c", "vicinae toggle"]
+
+      Super-Enter:
+        launch: [ "bash", "-c", "alacritty"]
+
+      Super-Shift-s:
+        launch: [ "/home/hasan/.local/bin/grim-slurp" ]
+      Super-e:
+        launch: [ "bash", "-c", "cutefish-filemanager"]
+      Super-F: C-Alt-f
+      Super-w: C-w
+      Super-t: C-t
+      Super-a: Alt-a
+      Super-c: Alt-c
+      Super-q: Alt-q
+      Super-v: Alt-v
+      Super-z: C-z
+      Super-Shift-z: C-y
+      Super-Shift-t: C-Shift-t
+      Super-r: C-r
+      Super-Up: C-Alt-Up
+      Super-Left: C-Alt-Left
+      Super-Right: C-Alt-Right
+      # Super-Shift-s: Print
